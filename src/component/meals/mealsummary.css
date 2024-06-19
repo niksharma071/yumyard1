@@ -1,0 +1,41 @@
+.meal-summary {
+    background-color: lavenderblush;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin-top: -170px;
+    position: relative;
+    box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+}
+
+.meal-summary h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.meal-summary p {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+    .meal-summary {
+        padding: 40px;
+    }
+
+    .meal-summary h2 {
+        font-size: 28px;
+    }
+
+    .meal-summary p {
+        font-size: 18px;
+    }
+}

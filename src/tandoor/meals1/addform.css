@@ -1,0 +1,27 @@
+.form{
+    text-align: right;
+}
+.form-button{
+    margin-left: 6px;
+    font: inherit;
+    cursor: pointer;
+    background-color: #623b73;
+    border: 1px solid #623b73;
+    color: white;   
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.form-button:hover,
+.form-button:active{
+    background-color:#623b73;
+    border-color: #623b73;
+}
+
+.input label{
+    font-weight: bold;
+    margin-right: 1rem;
+}
+.input{
+    border-radius: 5px;
+}

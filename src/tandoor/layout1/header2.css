@@ -1,0 +1,47 @@
+.header-container {
+    background-image: url('../../assests/back.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed; /* Ensure background image remains fixed */
+}
+
+.image2{
+    border-radius: 50%;
+    height: 70px;
+    width: 155px;
+    margin-left: -92px;
+ 
+}
+.he {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: #623b73;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+}
+
+.main-image {
+    width: 100%;
+    height: 25rem;
+    overflow: hidden;
+}
+
+.main-image img {
+    width: 110%;
+    height: 100%;
+    object-fit: cover; 
+    transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
+}
+
